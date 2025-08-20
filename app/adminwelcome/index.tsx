@@ -1961,7 +1961,7 @@ export default function IndexPage() {
               <TouchableOpacity 
                 style={[styles.actionButton, styles.registerButton, { backgroundColor: '#baad9b' }]}
                 // onPress={() => router.push('/adminwelcome/clinicdata')}
-                onPress={checkCities}
+                // onPress={checkCities}
               >
                 <Ionicons name="add-outline" size={28} color="#fff" style={styles.buttonIcon} />
                 <Text style={styles.actionButtonText}>Add Mail ID And Password For Area</Text>
